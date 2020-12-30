@@ -1,0 +1,307 @@
+@font-face {
+  font-family: "AktivGrotesk-m";
+  src: url("fonts/AktivGroteskCorp-Medium.eot");
+  src: local("fonts/AktivGroteskCorp-Medium"),
+    url("fonts/AktivGroteskCorp-Medium.eot?#iefix") format("embedded-opentype"),
+    url("fonts/AktivGroteskCorp-Medium.woff2") format("woff2"),
+    url("fonts/AktivGroteskCorp-Medium.woff") format("woff"),
+    url("fonts/AktivGroteskCorp-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "aktiv-grotesk";
+  src: url("https://use.typekit.net/af/28158e/00000000000000003b9b4066/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/28158e/00000000000000003b9b4066/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/28158e/00000000000000003b9b4066/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "AktivGrotesk-b";
+  src: url("fonts/AktivGroteskCorp-Bold.eot");
+  src: local("fonts/AktivGroteskCorp-Bold"),
+    url("fonts/AktivGroteskCorp-Bold.eot?#iefix") format("embedded-opentype"),
+    url("fonts/AktivGroteskCorp-Bold.woff2") format("woff2"),
+    url("fonts/AktivGroteskCorp-Bold.woff") format("woff"),
+    url("fonts/AktivGroteskCorp-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "AktivGrotesk-italic";
+  src: url("fonts/AktivGroteskCorp-Italic.eot");
+  src: local("fonts/AktivGroteskCorp-Italic"),
+    url("fonts/AktivGroteskCorp-Italic.eot?#iefix") format("embedded-opentype"),
+    url("fonts/AktivGroteskCorp-Italic.woff2") format("woff2"),
+    url("fonts/AktivGroteskCorp-Italic.woff") format("woff"),
+    url("fonts/AktivGroteskCorp-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "AktivGrotesk-light-italic";
+  src: url("fonts/AktivGroteskCorp-LightItalic.eot");
+  src: local("fonts/AktivGroteskCorp-LightItalic"),
+    url("fonts/AktivGroteskCorp-LightItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/AktivGroteskCorp-LightItalic.woff2") format("woff2"),
+    url("fonts/AktivGroteskCorp-LightItalic.woff") format("woff"),
+    url("fonts/AktivGroteskCorp-LightItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "AktivGrotesk-medium-italic";
+  src: url("fonts/AktivGroteskCorp-MediumItalic.eot");
+  src: local("fonts/AktivGroteskCorp-MediumItalic"),
+    url("fonts/AktivGroteskCorp-MediumItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/AktivGroteskCorp-MediumItalic.woff2") format("woff2"),
+    url("fonts/AktivGroteskCorp-MediumItalic.woff") format("woff"),
+    url("fonts/AktivGroteskCorp-MediumItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "AktivGrotesk-l";
+  src: url("fonts/AktivGroteskCorp-Light.eot");
+  src: local("fonts/AktivGroteskCorp-Light"),
+    url("fonts/AktivGroteskCorp-Light.eot?#iefix") format("embedded-opentype"),
+    url("fonts/AktivGroteskCorp-Light.woff2") format("woff2"),
+    url("fonts/AktivGroteskCorp-Light.woff") format("woff"),
+    url("fonts/AktivGroteskCorp-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "AktivGrotesk-r";
+  src: url("fonts/AktivGroteskCorp-Regular.eot");
+  src: local("fonts/AktivGroteskCorp-Regular"),
+    url("fonts/AktivGroteskCorp-Regular.eot?#iefix") format("embedded-opentype"),
+    url("fonts/AktivGroteskCorp-Regular.woff2") format("woff2"),
+    url("fonts/AktivGroteskCorp-Regular.woff") format("woff"),
+    url("fonts/AktivGroteskCorp-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "AktivGrotesk-bold-italic";
+  src: url("fonts/AktivGroteskCorp-BoldItalic.eot");
+  src: local("fonts/AktivGroteskCorp-BoldItalic"),
+    url("fonts/AktivGroteskCorp-BoldItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("fonts/AktivGroteskCorp-BoldItalic.woff2") format("woff2"),
+    url("fonts/AktivGroteskCorp-BoldItalic.woff") format("woff"),
+    url("fonts/AktivGroteskCorp-BoldItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "aktiv-grotesk-extended";
+  src: url("https://use.typekit.net/af/e10446/00000000000000003b9ad13a/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/e10446/00000000000000003b9ad13a/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/e10446/00000000000000003b9ad13a/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "aktiv-grotesk", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 0;
+}
+/* CSS FOR HEADER */
+.header {
+  width: 100%;
+  height: 100vh;
+  max-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 0 10px;
+}
+.header img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+.header video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 90%;
+  gap: 25px;
+  text-align: center;
+  z-index: 25;
+}
+.header h2 {
+  font-family: "aktiv-grotesk-extended", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  font-size: 36px;
+  line-height: 44px;
+}
+.header h5 {
+  font-size: 18px;
+  color: #dbdbdb;
+  line-height: 28px;
+}
+.header-anchor {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 25;
+  width: 60px;
+  height: 60px;
+}
+.header-anchor img {
+  width: 60px;
+  height: 60px;
+}
+@media (min-width: 576px) {
+  .header-content h2,
+  .header-content h5 {
+    width: 435px;
+  }
+}
+@media (min-width: 768px) {
+  .header-content {
+    text-align: start;
+    padding-right: 290px;
+  }
+}
+@media (min-width: 992px) {
+  .header {
+    max-height: 558px;
+  }
+  .header-content {
+    text-align: start;
+    padding-right: 480px;
+    padding-bottom: 50px;
+  }
+  .header h2 {
+    font-size: 48px;
+    line-height: 58px;
+    width: 479px;
+  }
+  .header h5 {
+    font-size: 24px;
+    line-height: 34px;
+    width: 479px;
+  }
+}
+@media (min-width: 1100px) {
+  .header {
+    max-height: 675px;
+  }
+}
+@media (min-width: 1200px) {
+  .header-content {
+    padding-right: 600px;
+    padding-bottom: 0px;
+  }
+  .header h2,
+  .header h5 {
+    width: 547px;
+  }
+}
+@media (min-width: 1300px) {
+  .header {
+    max-height: 945px;
+  }
+}
+@media (min-width: 1600px) {
+  .header-content {
+    padding-right: 800px;
+  }
+}
+
+/* CSS FOR HEADER INTERNAL */
+.header-internal {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 10px solid #00cfb4;
+  position: relative;
+}
+.header-internal img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+.header-internal video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+.header-internal-content {
+  z-index: 25;
+}
+.header-internal-content h1 {
+  font-family: "aktiv-grotesk-extended", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  font-size: 28px;
+  text-align: center;
+  max-width: 545px;
+  line-height: 38px;
+}
+@media (min-width: 576px) {
+  .header-internal-content {
+    max-width: 422px;
+  }
+  .header-internal-content h1 {
+    font-size: 36px;
+    line-height: 44px;
+  }
+}
+@media (min-width: 768px) {
+  .header-internal-content {
+    max-width: 60%;
+  }
+}
+@media (min-width: 992px) {
+  .header-internal {
+    height: 434px;
+  }
+}
+@media (min-width: 1050px) {
+  .header-internal {
+    height: 525px;
+  }
+}
+@media (min-width: 1200px) {
+  .header-internal-content h1 {
+    line-height: 58px;
+    font-size: 48px;
+    max-width: 754px;
+  }
+}
+@media (min-width: 1300px) {
+  .header-internal {
+    height: 735px;
+  }
+}
